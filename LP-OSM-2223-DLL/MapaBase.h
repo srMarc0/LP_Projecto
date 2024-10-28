@@ -26,9 +26,4 @@ public:
 };
 
 
-void MapaBase::getPdis(std::vector<PuntDeInteresBase*>&)
-{
-
-}
-
 
