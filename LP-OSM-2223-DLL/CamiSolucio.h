@@ -4,6 +4,8 @@ class CamiSolucio : public CamiBase
 {
 private:
     std::vector<Coordinate> m_camiCoords;
+    std::string m_highway;
+    std::vector<std::string> m_id;
 public:
     CamiSolucio()
     {
@@ -14,7 +16,11 @@ public:
             {41.4939882, 2.1456419}
         };
     }
+    CamiSolucio(std::string highway) : m_highway(highway) {}
     ~CamiSolucio() {}
-    std::vector<Coordinate>getCamiCoords() override { return m_camiCoords; }
+    std::vector<Coordinate>getCamiCoords() override {
+
+        return m_camiCoords;
+    }
     void setCamiCoords(const std::vector<Coordinate>& c) override { m_camiCoords = c; }
 };
