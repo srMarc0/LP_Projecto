@@ -3,6 +3,7 @@
 
 void MapaSolucio::getPdis(std::vector<PuntDeInteresBase*>& v)
 {
+    /*
     Coordinate c;
 
     c.lat = 41.4918606;
@@ -16,12 +17,16 @@ void MapaSolucio::getPdis(std::vector<PuntDeInteresBase*>& v)
 
     PuntDeInteresRestaurantSolucio* r = new PuntDeInteresRestaurantSolucio(c, "El Millor Restaurant", "regional", "yes");
     v.push_back(r);
+    */
+    v = m_puntInt;
 }
 
 void MapaSolucio::getCamins(std::vector<CamiBase*>& v)
-{
+{ /*
     CamiSolucio* cami = new CamiSolucio();
     v.push_back(cami);
+    */
+    v = m_cami;
 }
 
 void MapaSolucio::parsejaXmlElements(std::vector<XmlElement>& xmlElements)
@@ -31,36 +36,44 @@ void MapaSolucio::parsejaXmlElements(std::vector<XmlElement>& xmlElements)
         XmlElement elem = xmlElements[i];
         if (elem.id_element == "node")
         {
-
-            Coordinate coor;
-            coor.lat = std::stod(elem.atributs[7].second); //stod converteix de string a double
-            coor.lon = std::stod(elem.atributs[8].second); //Agafem coordenades del node (shop/restaurant)
-
-            if (elem.atributs[0].second == "shop")
+            if (!elem.fills.empty())
             {
-                PuntDeInteresBotigaSolucio* botiga = new PuntDeInteresBotigaSolucio(coor, elem.fills[2].second[0].second
-                    , elem.fills[1].second[0].second); //Ha de tindre les coordenades, el nom de la botiga i el shop?¿ Suposu que sera el tipus de botiga
-                m_puntInt.push_back(botiga);
-            }
-            else if (elem.atributs[0].second == "restaurant")
-            {
-                PuntDeInteresRestaurantSolucio* res = new PuntDeInteresRestaurantSolucio(coor, elem.fills[2].second[0].second,
-                    elem.fills[1].second[0].second, elem.fills[3].second[0].second); //Ha de tindre les coordenades, el nom del Restaurant, tipus de cuina i si te acces cadira de rodes
-                m_puntInt.push_back(res);
-            }
 
+                Coordinate coor;
+                coor.lat = std::stod(elem.atributs[2].second); //stod converteix de string a double
+                coor.lon = std::stod(elem.atributs[3].second); //Agafem coordenades del node (shop/restaurant)
+
+                if (elem.fills[1].second[0].second == "highway")
+                {
+                    //carreta, implementar més endevant
+                }
+                else if (elem.fills[5].second[0].second == "shop")
+                {
+                    PuntDeInteresBotigaSolucio* botiga = new PuntDeInteresBotigaSolucio(coor, elem.fills[1].second[1].second
+                        , elem.fills[5].second[1].second); //Ha de tindre les coordenades, el nom de la botiga i el shop?¿ Suposu que sera el tipus de botiga
+                    m_puntInt.push_back(botiga);
+                }
+                else if (elem.fills[1].second[1].second == "restaurant")
+                {
+                    PuntDeInteresRestaurantSolucio* res = new PuntDeInteresRestaurantSolucio(coor, elem.fills[5].second[1].second,
+                        elem.fills[3].second[1].second, elem.fills[7].second[1].second); //Ha de tindre les coordenades, el nom del Restaurant, tipus de cuina i si te acces cadira de rodes
+                    m_puntInt.push_back(res);
+                }
+            }
         }
         else if (elem.id_element == "way")
         {
             // Crear el camins
-            /*
-            int i = 0;
+            std::vector<std::string> id_nodes;
+            int i = 1;
             while (elem.fills[i].first == "nd")
             {
-               //
+                id_nodes.push_back(elem.fills[i].second[0].second); //id dels nodes que componen el cami
+                i += 2;
             }
-            CamiSolucio* cami = new CamiSolucio(elem.fills[4].second[0].second);
-            */
+            CamiSolucio* cami = new CamiSolucio(elem.fills[9].second[1].second, id_nodes);
+            m_cami.push_back(cami);
+
         }
 
 

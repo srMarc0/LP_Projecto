@@ -9,8 +9,10 @@ private:
 public:
     MapaSolucio()
     {
+        /*
         getPdis(m_puntInt);
         getCamins(m_cami);
+        */
     }
     ~MapaSolucio() {}
 
