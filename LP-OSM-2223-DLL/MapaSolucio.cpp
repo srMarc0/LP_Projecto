@@ -36,7 +36,7 @@ void MapaSolucio::parsejaXmlElements(std::vector<XmlElement>& xmlElements)
         XmlElement elem = xmlElements[i];
         if (elem.id_element == "node")
         {
-            if (!elem.fills.empty())
+            if (!elem.fills.empty())   
             {
 
                 Coordinate coor;
