@@ -64,6 +64,7 @@ void MapaSolucio::parsejaXmlElements(std::vector<XmlElement>& xmlElements)
         else if (elem.id_element == "way")
         {
             // Crear el camins
+            /*
             std::vector<std::string> id_nodes;
             int i = 1;
             while (elem.fills[i].first == "nd")
@@ -71,7 +72,18 @@ void MapaSolucio::parsejaXmlElements(std::vector<XmlElement>& xmlElements)
                 id_nodes.push_back(elem.fills[i].second[0].second); //id dels nodes que componen el cami
                 i += 2;
             }
-            CamiSolucio* cami = new CamiSolucio(elem.fills[9].second[1].second, id_nodes);
+            */
+            std::vector<Coordinate> coorNodeCami;
+            int i = 0;
+            while (elem.fills[i].first == "nd")
+            {
+                Coordinate coor;
+                coor.lat = std::stod(elem.atributs[2].second);
+                coor.lon = std::stod(elem.atributs[3].second);
+                coorNodeCami.push_back(coor);
+
+            }
+            CamiSolucio* cami = new CamiSolucio(elem.fills[9].second[1].second, coorNodeCami);
             m_cami.push_back(cami);
 
         }
