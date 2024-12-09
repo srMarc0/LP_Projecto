@@ -1,3 +1,5 @@
+
+#include "pch.h"
 #include "MapaBase.h"
 
 class MapaSolucio : public MapaBase
@@ -8,15 +10,12 @@ private:
 
 public:
     MapaSolucio()
-    {
-        /*
-        getPdis(m_puntInt);
-        getCamins(m_cami);
-        */
-    }
+    {}
     ~MapaSolucio() {}
 
     void getPdis(std::vector<PuntDeInteresBase*>& v) override;
     void getCamins(std::vector<CamiBase*>& v) override;
     void parsejaXmlElements(std::vector<XmlElement>& xmlElements) override;
+
+    CamiBase* buscaCamiMesCurt(PuntDeInteresBase* desde, PuntDeInteresBase* a) override;
 };

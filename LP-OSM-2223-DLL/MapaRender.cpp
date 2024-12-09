@@ -1,6 +1,7 @@
 #include "pch.h"
 #include "MapaRender.h"
 #include "Util.h"
+#include "MapaSolucio.h"
 
 MapaRender* MapaRender::m_singleton = nullptr;
 
@@ -87,6 +88,27 @@ void MapaRender::construeixOSM(const std::string& path_map) {
         Util::escriuEnMonitor("No has instanciat correctament MapaBase!");
     }
 }
+
+// DO NOT TOUCH THIS
+PuntDeInteresBase * MapaRender::getPoiByIdx(int idx) {
+    std::vector<PuntDeInteresBase*> vec_puntsDeInteres = {};
+    this->m_mapaBase->getPdis(vec_puntsDeInteres);
+
+
+    if (idx < 0 || idx > vec_puntsDeInteres.size())
+        return new PuntDeInteresBase();
+
+    return vec_puntsDeInteres[idx];
+}
+
+// DO NOT TOUCH THIS
+std::vector<Coordinate> MapaRender::shortestPath(PuntDeInteresBase* from, PuntDeInteresBase* to)
+{
+    CamiBase* way = m_mapaBase->buscaCamiMesCurt(from, to);
+    return way->getCamiCoords();
+}
+
+
 
 
 

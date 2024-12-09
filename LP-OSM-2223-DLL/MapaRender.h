@@ -6,7 +6,7 @@
 #include <iostream>
 #include "Common.h"
 
-#include "MapaSolucio.h"
+#include "MapaBase.h"
 #include "XML4OSMUtil.h"
 
 
@@ -26,7 +26,10 @@ class MapaRender {
 
         std::vector<PoiBridge> renderPois();
         std::vector<WayBridge> renderWays();
+
+        PuntDeInteresBase* getPoiByIdx(int idx);
+        std::vector<Coordinate> shortestPath(PuntDeInteresBase* from, PuntDeInteresBase* to);
 };
 
 
-#endif //LP_OSM_2122_MAPA_H
+#endif //LP_OSM_2223_MAPA_H
