@@ -1,14 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "S:\\UAB\\Materias\\2do Curso\\Primer Semestre\\Laboratori de Programacio\\Projecte\\Parte 2\\Git VSCE2022 - ALUMNES P2\\LP_Projecto\\LP-OSM-2223-WPF\\LP-OSM-2223-WPF.csproj": {}
+    "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n año\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-WPF\\LP-OSM-2223-WPF.csproj": {}
   },
   "projects": {
-    "S:\\UAB\\Materias\\2do Curso\\Primer Semestre\\Laboratori de Programacio\\Projecte\\Parte 2\\Git VSCE2022 - ALUMNES P2\\LP_Projecto\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj": {
+    "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n año\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj": {
       "restore": {
-        "projectUniqueName": "S:\\UAB\\Materias\\2do Curso\\Primer Semestre\\Laboratori de Programacio\\Projecte\\Parte 2\\Git VSCE2022 - ALUMNES P2\\LP_Projecto\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj",
+        "projectUniqueName": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n año\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj",
         "projectName": "LP-OSM-2223-DLL",
-        "projectPath": "S:\\UAB\\Materias\\2do Curso\\Primer Semestre\\Laboratori de Programacio\\Projecte\\Parte 2\\Git VSCE2022 - ALUMNES P2\\LP_Projecto\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj",
+        "projectPath": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n año\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj",
+        "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "native": {
             "projectReferences": {}
@@ -19,17 +20,21 @@
         "native": {}
       }
     },
-    "S:\\UAB\\Materias\\2do Curso\\Primer Semestre\\Laboratori de Programacio\\Projecte\\Parte 2\\Git VSCE2022 - ALUMNES P2\\LP_Projecto\\LP-OSM-2223-WPF\\LP-OSM-2223-WPF.csproj": {
+    "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n año\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-WPF\\LP-OSM-2223-WPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\UAB\\Materias\\2do Curso\\Primer Semestre\\Laboratori de Programacio\\Projecte\\Parte 2\\Git VSCE2022 - ALUMNES P2\\LP_Projecto\\LP-OSM-2223-WPF\\LP-OSM-2223-WPF.csproj",
+        "projectUniqueName": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n año\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-WPF\\LP-OSM-2223-WPF.csproj",
         "projectName": "LP-OSM-2223-WPF",
-        "projectPath": "S:\\UAB\\Materias\\2do Curso\\Primer Semestre\\Laboratori de Programacio\\Projecte\\Parte 2\\Git VSCE2022 - ALUMNES P2\\LP_Projecto\\LP-OSM-2223-WPF\\LP-OSM-2223-WPF.csproj",
-        "packagesPath": "C:\\Users\\Samuel Outeda\\.nuget\\packages\\",
-        "outputPath": "S:\\UAB\\Materias\\2do Curso\\Primer Semestre\\Laboratori de Programacio\\Projecte\\Parte 2\\Git VSCE2022 - ALUMNES P2\\LP_Projecto\\LP-OSM-2223-WPF\\obj\\",
+        "projectPath": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n año\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-WPF\\LP-OSM-2223-WPF.csproj",
+        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n año\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-WPF\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Samuel Outeda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,15 +42,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "S:\\UAB\\Materias\\2do Curso\\Primer Semestre\\Laboratori de Programacio\\Projecte\\Parte 2\\Git VSCE2022 - ALUMNES P2\\LP_Projecto\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj": {
-                "projectPath": "S:\\UAB\\Materias\\2do Curso\\Primer Semestre\\Laboratori de Programacio\\Projecte\\Parte 2\\Git VSCE2022 - ALUMNES P2\\LP_Projecto\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj"
+              "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n año\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj": {
+                "projectPath": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n año\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj"
               }
             }
           }
@@ -59,7 +63,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -98,7 +103,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

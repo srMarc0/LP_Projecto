@@ -1,5 +1,8 @@
 is_global = true
 build_property.RootNamespace = LP_OSM_2223_WPF
-build_property.ProjectDir = S:\UAB\Materias\2do Curso\Primer Semestre\Laboratori de Programacio\Projecte\Parte 2\Git VSCE2022 - ALUMNES P2\LP_Projecto\LP-OSM-2223-WPF\
+build_property.ProjectDir = C:\Users\usuario\Desktop\Treballs Uni\2n año\LP\LP_MAPS_PARTE_2\LP-OSM-2223-WPF\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 
