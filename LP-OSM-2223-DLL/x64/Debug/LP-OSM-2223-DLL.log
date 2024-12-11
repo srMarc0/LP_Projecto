@@ -1,0 +1,15 @@
+﻿  pch.cpp
+  BallTree.cpp
+  DLL-Bridge.cpp
+  dllmain.cpp
+  MapaRender.cpp
+S:\UAB\Materias\2do Curso\Primer Semestre\Laboratori de Programacio\Projecte\Parte 2\Git VSCE2022 - ALUMNES P2\LP_Projecto\LP-OSM-2223-DLL\MapaRender.cpp(38,55): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  MapaSolucio.cpp
+  PuntDeInteresBase.cpp
+  PuntDeInteresBotiga.cpp
+  PuntDeInteresRestaurant.cpp
+  Util.cpp
+  XML4OSMUtil.cpp
+  Generating Code...
+     Creating library S:\UAB\Materias\2do Curso\Primer Semestre\Laboratori de Programacio\Projecte\Parte 2\Git VSCE2022 - ALUMNES P2\LP_Projecto\x64\Debug\LP-OSM-2223-DLL.lib and object S:\UAB\Materias\2do Curso\Primer Semestre\Laboratori de Programacio\Projecte\Parte 2\Git VSCE2022 - ALUMNES P2\LP_Projecto\x64\Debug\LP-OSM-2223-DLL.exp
+  LP-OSM-2223-DLL.vcxproj -> S:\UAB\Materias\2do Curso\Primer Semestre\Laboratori de Programacio\Projecte\Parte 2\Git VSCE2022 - ALUMNES P2\LP_Projecto\x64\Debug\LP-OSM-2223-DLL.dll

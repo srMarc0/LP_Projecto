@@ -278,7 +278,6 @@ namespace LS_OSM_2223_WPF
         private void VisualitzaCamins_Click(object sender, RoutedEventArgs e)
         {
             List<MapElement> mapElements = new List<MapElement>();
-
             foreach (var way in ways)
             {
                 Dispatcher.Invoke(() =>

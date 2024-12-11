@@ -3,91 +3,163 @@
 
 void MapaSolucio::getPdis(std::vector<PuntDeInteresBase*>& v)
 {
-    /*
-    Coordinate c;
 
-    c.lat = 41.4918606;
-    c.lon = 2.1465411;
+    v.clear();
+    for (auto it = m_puntInt.begin(); it != m_puntInt.end(); it++)
+        v.push_back(*it);
 
-    PuntDeInteresBotigaSolucio* p = new PuntDeInteresBotigaSolucio(c, "La Millor Pastisseria", "bakery");
-    v.push_back(p);
-
-    c.lat = 41.4902204;
-    c.lon = 2.1406477;
-
-    PuntDeInteresRestaurantSolucio* r = new PuntDeInteresRestaurantSolucio(c, "El Millor Restaurant", "regional", "yes");
-    v.push_back(r);
-    */
-    v = m_puntInt;
 }
 
 void MapaSolucio::getCamins(std::vector<CamiBase*>& v)
-{ /*
-    CamiSolucio* cami = new CamiSolucio();
-    v.push_back(cami);
-    */
-    v = m_cami;
+{
+    v.clear();
+    for (auto it = m_cami.begin(); it != m_cami.end(); it++)
+        v.push_back(*it);
 }
 
 void MapaSolucio::parsejaXmlElements(std::vector<XmlElement>& xmlElements)
 {
+    m_puntInt.clear();
+    m_cami.clear();
+
+    int k = 0;
+    typedef struct
+    {
+        std::string id;
+        Coordinate coor;
+
+    }ID_COOR;
+
+    std::vector<ID_COOR> coorNodoWay;
+    std::string id;
+
     for (int i = 0; i < xmlElements.size(); i++)
     {
         XmlElement elem = xmlElements[i];
         if (elem.id_element == "node")
         {
-            if (!elem.fills.empty())   
+            if (!elem.atributs.empty())
             {
-
                 Coordinate coor;
-                coor.lat = std::stod(elem.atributs[2].second); //stod converteix de string a double
-                coor.lon = std::stod(elem.atributs[3].second); //Agafem coordenades del node (shop/restaurant)
 
-                if (elem.fills[1].second[0].second == "highway")
+                for (auto it = elem.atributs.begin(); it != elem.atributs.end(); it++)//busquem coordenades
                 {
-                    //carreta, implementar més endevant
+                    if (it->first == "id")
+                    {
+                        id = it->second;
+                    }
+                    else if (it->first == "lat")
+                    {
+                        coor.lat = std::stod(it->second);
+                    }
+                    else if (it->first == "lon")
+                    {
+                        coor.lon = std::stod(it->second);
+                        break;
+                    }
                 }
-                else if (elem.fills[5].second[0].second == "shop")
+
+                if (!elem.fills.empty())
                 {
-                    PuntDeInteresBotigaSolucio* botiga = new PuntDeInteresBotigaSolucio(coor, elem.fills[1].second[1].second
-                        , elem.fills[5].second[1].second); //Ha de tindre les coordenades, el nom de la botiga i el shop?¿ Suposu que sera el tipus de botiga
-                    m_puntInt.push_back(botiga);
+                    std::string name = "", shop = "", cuisine = "", wheel = "no", open = "", amenity = "";
+                    for (auto it = elem.fills.begin(); it != elem.fills.end(); it++) //busquem tags
+                    {
+                        if (it->first != "#text")
+                        {
+                            if (it->second[0].second == "name")
+                                name = it->second[1].second;
+                            else if (it->second[0].second == "shop")
+                                shop = it->second[1].second;
+                            else if (it->second[0].second == "opening_hours")
+                                open = it->second[1].second;
+                            else if (it->second[0].second == "wheelchair")
+                                wheel = it->second[1].second;
+                            else if (it->second[0].second == "amenity")
+                                amenity = it->second[1].second;
+                            else if (it->second[0].second == "cuisine")
+                                cuisine = it->second[1].second;
+                        }
+                    }
+                    if (shop != "" && name != "")
+                    {
+                        PuntDeInteresBotigaSolucio* botiga = new PuntDeInteresBotigaSolucio(coor, name, id, shop, open, wheel);
+                        m_puntInt.push_back(botiga);
+                    }
+                    else if (amenity != "")
+                    {
+                        PuntDeInteresRestaurantSolucio* res = new PuntDeInteresRestaurantSolucio(coor, name, id, cuisine, wheel, amenity);
+                        m_puntInt.push_back(res);
+                    }
+                    else
+                    {
+                        ID_COOR id_coor;
+                        id_coor.coor.lat = coor.lat;
+                        id_coor.coor.lon = coor.lon;
+                        id_coor.id = id;
+                        coorNodoWay.push_back(id_coor);
+
+                    }
                 }
-                else if (elem.fills[1].second[1].second == "restaurant")
+                else
                 {
-                    PuntDeInteresRestaurantSolucio* res = new PuntDeInteresRestaurantSolucio(coor, elem.fills[5].second[1].second,
-                        elem.fills[3].second[1].second, elem.fills[7].second[1].second); //Ha de tindre les coordenades, el nom del Restaurant, tipus de cuina i si te acces cadira de rodes
-                    m_puntInt.push_back(res);
+                    ID_COOR id_coor;
+                    id_coor.coor.lat = coor.lat;
+                    id_coor.coor.lon = coor.lon;
+                    id_coor.id = id;
+                    coorNodoWay.push_back(id_coor);
+
                 }
+
             }
         }
         else if (elem.id_element == "way")
         {
-            // Crear el camins
-            /*
-            std::vector<std::string> id_nodes;
-            int i = 1;
-            while (elem.fills[i].first == "nd")
-            {
-                id_nodes.push_back(elem.fills[i].second[0].second); //id dels nodes que componen el cami
-                i += 2;
-            }
-            */
-            std::vector<Coordinate> coorNodeCami;
-            int i = 0;
-            while (elem.fills[i].first == "nd")
-            {
-                Coordinate coor;
-                coor.lat = std::stod(elem.atributs[2].second);
-                coor.lon = std::stod(elem.atributs[3].second);
-                coorNodeCami.push_back(coor);
 
+            std::vector<std::string> ref;
+            std::vector<Coordinate> coor;
+            int j = 0;
+            while (j < elem.fills.size())
+            {
+                if (elem.fills[j].first == "nd")
+                {
+                    if (!coorNodoWay.empty())
+                    {
+                        for (auto it = coorNodoWay.begin(); it != coorNodoWay.end(); it++)
+                        {
+                            if (elem.fills[j].second[0].second == it->id && it->coor.lat != 0)
+                            {
+                                ref.push_back(it->id);
+                                coor.push_back(it->coor);
+                                //coorNodoWay.erase(it);
+                                break;
+                            }
+
+                        }
+                    }
+                    else
+                    {
+                        ref.push_back(elem.fills[j].second[1].second);
+                    }
+                }
+                
+                j++;
             }
-            CamiSolucio* cami = new CamiSolucio(elem.fills[9].second[1].second, coorNodeCami);
-            m_cami.push_back(cami);
+
+            if (coor.size() && ref.size())
+            {
+                CamiSolucio* cami = new CamiSolucio(elem.atributs[0].first, ref, coor);
+                m_cami.push_back(cami);
+            }
+            
 
         }
 
 
     }
+    int hola = 0;
+}
+
+CamiBase* MapaSolucio::buscaCamiMesCurt(PuntDeInteresBase* desde, PuntDeInteresBase* a)
+{
+    return nullptr;
 }

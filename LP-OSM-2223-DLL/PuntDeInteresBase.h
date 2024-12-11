@@ -1,13 +1,12 @@
 #pragma once
-#include "pch.h"
+
 #include <string>
 #include "Common.h"
 
-class PuntDeInteresBase 
-{
+class PuntDeInteresBase {
 
 	private:
-		Coordinate m_coord; //coordenades; latitud i longitud
+		Coordinate m_coord;
 		std::string m_name;
 
 	public:		
@@ -17,7 +16,5 @@ class PuntDeInteresBase
 		virtual std::string getName();
 		Coordinate getCoord();
 		virtual unsigned int getColor();
-
-		//virtual PuntDeInteresBase* clone() = 0;
 
 };
