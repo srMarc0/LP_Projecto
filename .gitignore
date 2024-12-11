@@ -1,0 +1,23 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+
+# Altres fitxers temporals
+*.log
+*.obj
+*.pch
+*.exe
+*.dll
+*.pdb
+*.cache
+*.ilk
+*.lib
