@@ -161,5 +161,9 @@ void MapaSolucio::parsejaXmlElements(std::vector<XmlElement>& xmlElements)
 
 CamiBase* MapaSolucio::buscaCamiMesCurt(PuntDeInteresBase* desde, PuntDeInteresBase* a)
 {
+    Graf graf = Graf(); //creem el graf per posar els nodes i les seves relacions
+    graf.creaMatriu(this);
+  //  graf.creaMatriu(m);
+
     return nullptr;
 }

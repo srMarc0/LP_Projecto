@@ -2,6 +2,8 @@
 #include "pch.h"
 #include "MapaBase.h"
 
+#include "GrafSolucio.h"
+
 class MapaSolucio : public MapaBase
 {
 private:
