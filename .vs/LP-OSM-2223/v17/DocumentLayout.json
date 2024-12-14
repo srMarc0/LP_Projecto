@@ -7,20 +7,24 @@
       "RelativeMoniker": "D:0:0:{86327DF7-0D38-41A6-992E-BE1E015DF1B1}|LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj|solutionrelative:LP-OSM-2223-DLL\\GrafSolucio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86327DF7-0D38-41A6-992E-BE1E015DF1B1}|LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj|C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\MapaSolucio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{86327DF7-0D38-41A6-992E-BE1E015DF1B1}|LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj|solutionrelative:LP-OSM-2223-DLL\\MapaSolucio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{86327DF7-0D38-41A6-992E-BE1E015DF1B1}|LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj|C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\GrafSolucio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{86327DF7-0D38-41A6-992E-BE1E015DF1B1}|LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj|solutionrelative:LP-OSM-2223-DLL\\GrafSolucio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86327DF7-0D38-41A6-992E-BE1E015DF1B1}|LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj|C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\MapaSolucio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{86327DF7-0D38-41A6-992E-BE1E015DF1B1}|LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj|solutionrelative:LP-OSM-2223-DLL\\MapaSolucio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{86327DF7-0D38-41A6-992E-BE1E015DF1B1}|LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj|C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\Util.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{86327DF7-0D38-41A6-992E-BE1E015DF1B1}|LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj|solutionrelative:LP-OSM-2223-DLL\\Util.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86327DF7-0D38-41A6-992E-BE1E015DF1B1}|LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj|C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\Util.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{86327DF7-0D38-41A6-992E-BE1E015DF1B1}|LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj|solutionrelative:LP-OSM-2223-DLL\\Util.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86327DF7-0D38-41A6-992E-BE1E015DF1B1}|LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj|C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\BallTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{86327DF7-0D38-41A6-992E-BE1E015DF1B1}|LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj|solutionrelative:LP-OSM-2223-DLL\\BallTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86327DF7-0D38-41A6-992E-BE1E015DF1B1}|LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj|C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\Common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{86327DF7-0D38-41A6-992E-BE1E015DF1B1}|LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj|solutionrelative:LP-OSM-2223-DLL\\Common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86327DF7-0D38-41A6-992E-BE1E015DF1B1}|LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj|C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\CamiSolucio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -33,16 +37,24 @@
     {
       "AbsoluteMoniker": "D:0:0:{86327DF7-0D38-41A6-992E-BE1E015DF1B1}|LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj|C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\MapaBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{86327DF7-0D38-41A6-992E-BE1E015DF1B1}|LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj|solutionrelative:LP-OSM-2223-DLL\\MapaBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86327DF7-0D38-41A6-992E-BE1E015DF1B1}|LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj|C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\MapaSolucio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{86327DF7-0D38-41A6-992E-BE1E015DF1B1}|LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj|solutionrelative:LP-OSM-2223-DLL\\MapaSolucio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86327DF7-0D38-41A6-992E-BE1E015DF1B1}|LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj|C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\MapaSolucio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{86327DF7-0D38-41A6-992E-BE1E015DF1B1}|LP-OSM-2223-DLL\\LP-OSM-2223-DLL.vcxproj|solutionrelative:LP-OSM-2223-DLL\\MapaSolucio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 124,
       "DocumentGroups": [
         {
           "DockedWidth": 700,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,58 +81,95 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Common.h",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\Common.h",
+              "RelativeDocumentMoniker": "LP-OSM-2223-DLL\\Common.h",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\Common.h",
+              "RelativeToolTip": "LP-OSM-2223-DLL\\Common.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-14T14:44:11.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Util.h",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\Util.h",
+              "RelativeDocumentMoniker": "LP-OSM-2223-DLL\\Util.h",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\Util.h",
+              "RelativeToolTip": "LP-OSM-2223-DLL\\Util.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-14T12:17:07.314Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "BallTree.h",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\BallTree.h",
+              "RelativeDocumentMoniker": "LP-OSM-2223-DLL\\BallTree.h",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\BallTree.h",
+              "RelativeToolTip": "LP-OSM-2223-DLL\\BallTree.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-14T01:08:41.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Util.cpp",
               "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\Util.cpp",
               "RelativeDocumentMoniker": "LP-OSM-2223-DLL\\Util.cpp",
               "ToolTip": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\Util.cpp",
               "RelativeToolTip": "LP-OSM-2223-DLL\\Util.cpp",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAADgv0IAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-12T19:39:13.609Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CamiBase.h",
               "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\CamiBase.h",
               "RelativeDocumentMoniker": "LP-OSM-2223-DLL\\CamiBase.h",
               "ToolTip": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\CamiBase.h",
               "RelativeToolTip": "LP-OSM-2223-DLL\\CamiBase.h",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAABgAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABwAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-12T18:45:25.325Z"
+              "WhenOpened": "2024-12-12T18:45:25.325Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CamiSolucio.h",
               "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\CamiSolucio.h",
               "RelativeDocumentMoniker": "LP-OSM-2223-DLL\\CamiSolucio.h",
               "ToolTip": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\CamiSolucio.h",
               "RelativeToolTip": "LP-OSM-2223-DLL\\CamiSolucio.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-12T11:07:06.601Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MapaBase.h",
               "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\MapaBase.h",
               "RelativeDocumentMoniker": "LP-OSM-2223-DLL\\MapaBase.h",
               "ToolTip": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\MapaBase.h",
               "RelativeToolTip": "LP-OSM-2223-DLL\\MapaBase.h",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAUwBMAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-11T23:22:20.123Z"
+              "WhenOpened": "2024-12-11T23:22:20.123Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -130,40 +179,40 @@
               "RelativeDocumentMoniker": "LP-OSM-2223-DLL\\GrafSolucio.cpp",
               "ToolTip": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\GrafSolucio.cpp",
               "RelativeToolTip": "LP-OSM-2223-DLL\\GrafSolucio.cpp",
-              "ViewState": "AgIAACwAAAAAAAAAAAAqwDcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAADgv3oAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-11T22:30:18.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MapaSolucio.cpp",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\MapaSolucio.cpp",
-              "RelativeDocumentMoniker": "LP-OSM-2223-DLL\\MapaSolucio.cpp",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\MapaSolucio.cpp",
-              "RelativeToolTip": "LP-OSM-2223-DLL\\MapaSolucio.cpp",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAApwKQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-11T22:26:52.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "GrafSolucio.h",
               "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\GrafSolucio.h",
               "RelativeDocumentMoniker": "LP-OSM-2223-DLL\\GrafSolucio.h",
               "ToolTip": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\GrafSolucio.h",
               "RelativeToolTip": "LP-OSM-2223-DLL\\GrafSolucio.h",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAEwBIAAABlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-11T23:19:59.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
+              "Title": "MapaSolucio.cpp",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\MapaSolucio.cpp",
+              "RelativeDocumentMoniker": "LP-OSM-2223-DLL\\MapaSolucio.cpp",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\MapaSolucio.cpp",
+              "RelativeToolTip": "LP-OSM-2223-DLL\\MapaSolucio.cpp",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-11T22:26:52.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "MapaSolucio.h",
               "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Treballs Uni\\2n a\u00F1o\\LP\\LP_MAPS_PARTE_2\\LP-OSM-2223-DLL\\MapaSolucio.h",
               "RelativeDocumentMoniker": "LP-OSM-2223-DLL\\MapaSolucio.h",
@@ -171,8 +220,7 @@
               "RelativeToolTip": "LP-OSM-2223-DLL\\MapaSolucio.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-11T23:22:23.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T23:22:23.023Z"
             }
           ]
         },

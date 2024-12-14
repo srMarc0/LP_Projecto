@@ -532,7 +532,6 @@ S:\UAB\Materias\2do Curso\Primer Semestre\Laboratori de Programacio\Projecte\Par
 S:\UAB\Materias\2do Curso\Primer Semestre\Laboratori de Programacio\Projecte\Parte 2\Git VSCE2022 - ALUMNES P2\LP_Projecto\LP-OSM-2223-WPF\obj\Debug\netcoreapp3.1\LP-OSM-2223-WPF.dll
 S:\UAB\Materias\2do Curso\Primer Semestre\Laboratori de Programacio\Projecte\Parte 2\Git VSCE2022 - ALUMNES P2\LP_Projecto\LP-OSM-2223-WPF\obj\Debug\netcoreapp3.1\LP-OSM-2223-WPF.pdb
 S:\UAB\Materias\2do Curso\Primer Semestre\Laboratori de Programacio\Projecte\Parte 2\Git VSCE2022 - ALUMNES P2\LP_Projecto\LP-OSM-2223-WPF\obj\Debug\netcoreapp3.1\LP-OSM-2223-WPF.genruntimeconfig.cache
-C:\Users\usuario\Desktop\Treballs Uni\2n año\LP\LP_MAPS_PARTE_2\LP-OSM-2223-WPF\bin\Debug\netcoreapp3.1\LP-OSM-2223-DLL.dll
 C:\Users\usuario\Desktop\Treballs Uni\2n año\LP\LP_MAPS_PARTE_2\LP-OSM-2223-WPF\bin\Debug\netcoreapp3.1\xerces-c_3_2D.dll
 C:\Users\usuario\Desktop\Treballs Uni\2n año\LP\LP_MAPS_PARTE_2\LP-OSM-2223-WPF\bin\Debug\netcoreapp3.1\LP-OSM-2223-WPF.exe
 C:\Users\usuario\Desktop\Treballs Uni\2n año\LP\LP_MAPS_PARTE_2\LP-OSM-2223-WPF\bin\Debug\netcoreapp3.1\LP-OSM-2223-WPF.deps.json
@@ -622,3 +621,4 @@ C:\Users\usuario\Desktop\Treballs Uni\2n año\LP\LP_MAPS_PARTE_2\LP-OSM-2223-WPF
 C:\Users\usuario\Desktop\Treballs Uni\2n año\LP\LP_MAPS_PARTE_2\LP-OSM-2223-WPF\obj\Debug\netcoreapp3.1\LP-OSM-2223-WPF.dll
 C:\Users\usuario\Desktop\Treballs Uni\2n año\LP\LP_MAPS_PARTE_2\LP-OSM-2223-WPF\obj\Debug\netcoreapp3.1\LP-OSM-2223-WPF.pdb
 C:\Users\usuario\Desktop\Treballs Uni\2n año\LP\LP_MAPS_PARTE_2\LP-OSM-2223-WPF\obj\Debug\netcoreapp3.1\LP-OSM-2223-WPF.genruntimeconfig.cache
+C:\Users\usuario\Desktop\Treballs Uni\2n año\LP\LP_MAPS_PARTE_2\LP-OSM-2223-WPF\bin\Debug\netcoreapp3.1\LP-OSM-2223-DLL.dll
