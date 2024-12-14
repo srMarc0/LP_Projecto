@@ -12,16 +12,16 @@ public:
 		m_left = nullptr;
 		m_right = nullptr;
 		m_radi = 0.001;
-		m_pivot = Coordinate { 0.0, 0.0 };
-        m_root = nullptr;
-    }
-
-    // Getters
-    BallTree* getArrel() {
-	    return m_root;
+		m_pivot = Coordinate{ 0.0, 0.0 };
+		m_root = nullptr;
 	}
 
-    Coordinate getPivot() {
+	// Getters
+	BallTree* getArrel() {
+		return m_root;
+	}
+
+	Coordinate getPivot() {
 		return m_pivot;
 	}
 
@@ -42,9 +42,9 @@ public:
 	}
 
 	// Setters
-    void setArrel(BallTree* root) {
-        m_root = root;
-    }
+	void setArrel(BallTree* root) {
+		m_root = root;
+	}
 
 	void setPivot(Coordinate pivot) {
 		m_pivot = pivot;
@@ -66,24 +66,27 @@ public:
 		m_coordenades = coordenades;
 	}
 
-    Coordinate nodeMesProper(Coordinate targetQuery, Coordinate& Q, BallTree* ball);
+	Coordinate nodeMesProper(Coordinate targetQuery, Coordinate& Q, BallTree* ball);
 
-    // Metodes a implementar
-    void construirArbre(const std::vector<Coordinate>& coordenades);
-    void inOrdre(std::vector<std::list<Coordinate>>& out);
-    void preOrdre(std::vector<std::list<Coordinate>>& out);
-    void postOrdre(std::vector<std::list<Coordinate>>& out);
+	// Metodes a implementar
+	void construirArbre(const std::vector<Coordinate>& coordenades);
+	void inOrdre(std::vector<std::list<Coordinate>>& out);
+	void preOrdre(std::vector<std::list<Coordinate>>& out);
+	void postOrdre(std::vector<std::list<Coordinate>>& out);
 
-    // Destructor
-    ~BallTree() = default;
+	// Destructor
+	~BallTree() = default;
 
 private:
-    BallTree* m_root;
-    BallTree* m_left;
+	BallTree* m_root;
+	BallTree* m_left;
 	BallTree* m_right;
 	double m_radi;
 	Coordinate m_pivot;
 	std::vector<Coordinate> m_coordenades;
+	void construirArbreRec(const std::vector<Coordinate>& coordenades);
+	static size_t calcularPuntMesLluny(std::vector<double>& distances);
+	static size_t calcularPuntMesLluny(std::vector<double>& distances, double& maxDistance);
 
 };
 

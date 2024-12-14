@@ -23,11 +23,11 @@ private:
 
 public:
 	Graf();
-	~Graf(){}
+	~Graf() {}
 	void creaMatriu(MapaBase* m);
 	size_t getNumNodes()const { return m_numNodes; }
-	size_t getNumArestes()const { return m_numArestes;  }
-	//void creaMatriu(CamiSolucio* c);
+	size_t getNumArestes()const { return m_numArestes; }
+	std::vector<Coordinate>& getNodes() { return m_nodes; }
 	void afegirNode(const Coordinate& node);
 
 	void afegirAresta(const Coordinate& node1, const Coordinate& node2);

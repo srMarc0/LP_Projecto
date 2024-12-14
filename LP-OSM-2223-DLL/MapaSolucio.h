@@ -1,7 +1,7 @@
 
 #include "pch.h"
 #include "MapaBase.h"
-
+#include "BallTree.h"
 #include "GrafSolucio.h"
 
 class MapaSolucio : public MapaBase
@@ -12,7 +12,8 @@ private:
 
 public:
     MapaSolucio()
-    {}
+    {
+    }
     ~MapaSolucio() {}
 
     void getPdis(std::vector<PuntDeInteresBase*>& v) override;

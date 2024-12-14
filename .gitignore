@@ -21,3 +21,6 @@ build/
 *.cache
 *.ilk
 *.lib
+/.vs/LP-OSM-2223/v17/.suo
+/.vs/LP-OSM-2223/v17/Browse.VC.db
+/.gitignore
