@@ -141,7 +141,7 @@ void MapaSolucio::parsejaXmlElements(std::vector<XmlElement>& xmlElements)
                         ref.push_back(elem.fills[j].second[1].second);
                     }
                 }
-                
+
                 j++;
             }
 
@@ -150,7 +150,7 @@ void MapaSolucio::parsejaXmlElements(std::vector<XmlElement>& xmlElements)
                 CamiSolucio* cami = new CamiSolucio(elem.atributs[0].first, ref, coor);
                 m_cami.push_back(cami);
             }
-            
+
 
         }
 
@@ -163,7 +163,10 @@ CamiBase* MapaSolucio::buscaCamiMesCurt(PuntDeInteresBase* desde, PuntDeInteresB
 {
     Graf graf = Graf(); //creem el graf per posar els nodes i les seves relacions
     graf.creaMatriu(this);
-  //  graf.creaMatriu(m);
+    //  graf.creaMatriu(m);
+    BallTree ballTree;
+
+    ballTree.construirArbre(graf.getNodes());
 
     return nullptr;
 }
