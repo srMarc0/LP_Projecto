@@ -43,14 +43,17 @@ void Graf::creaMatriu(MapaBase* m)
 	}
 	m_numNodes = m_nodes.size();
 	//porro intocable////////////////////////////////////////////////////////////////////
-
-	for (size_t i = 0; i < camins.size(); i++)
+	
+	for (size_t i = 0; i < camins.size(); i++)//iterem dintre el vector que conte camins
 	{
-
+		for (size_t j = 0; j < camins[i]->getNCoords() - 1; j++)//iterem els nodes dels camins	
+		{
+			std::pair<Coordinate, Coordinate> duplaCoor(camins[i]->getCamiCoords()[j], camins[i]->getCamiCoords()[j + 1]);
+			m_arestes.emplace_back(duplaCoor);
+		}
+		
 	}
-
-
-
+	m_numArestes = m_arestes.size();
 
 
 

@@ -16,7 +16,9 @@ private:
 	size_t m_numArestes;
 	std::vector<Coordinate> m_nodes; //Guardem tots els nodes, que son Coordenades
 	// ver como hacer la matriz que agrupe todos los nodos
-	std::vector<std::pair<Coordinate, Coordinate>> m_matriuAdj;// han de ser les coordenades¿?
+	std::vector<std::pair<Coordinate, Coordinate>> m_matriuAdj;// han de ser les coordenades¿? necesari?
+
+	std::vector<std::pair<Coordinate, Coordinate>> m_arestes; // per fer la conexions de arestes
 
 public:
 	Graf();
