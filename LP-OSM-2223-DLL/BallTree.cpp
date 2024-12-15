@@ -187,12 +187,60 @@ void BallTree::postOrdre(std::vector<std::list<Coordinate>>& out) {
 
 Coordinate BallTree::nodeMesProper(Coordinate targetQuery, Coordinate& Q, BallTree* ball) {
     // TODO: TASCA 3
-    Coordinate c;
-    c.lat = 0;
-    c.lon = 0;
+    // 
     //calcula la distancia del punt central de la bola al pdi (D1)
     //pdi = targetQuery
-    return c;
+    double D1 = Util::DistanciaHaversine(targetQuery, ball->getPivot());
+
+    //calcula distancia del punt central de la bola respecte al Q (D2)
+    double D2 = Util::DistanciaHaversine(Q, ball->getPivot());
+
+    //si  D1 - bola.radi >= D2 retorna Q
+    if (D1 - ball->getRadi() >= D2) 
+        return Q;
+
+    //Si la bola es una fulla del arbre, actualiza Q si es el node camí més propor al pdi, dels punts que formen la bola
+    if (m_left == nullptr && m_right == nullptr)
+    {
+       
+        auto coords = ball->getCoordenades();
+        double minDist = Util::DistanciaHaversine(targetQuery, coords[0]);
+        for (size_t i = 1; i < coords.size(); i++)
+        {
+            double dist = Util::DistanciaHaversine(targetQuery, coords[i]);
+            if (minDist > dist)
+            {
+                minDist = dist;
+                Q = coords[i];
+            }
+               
+        }
+    }
+    else
+    {   //else calcula pdi respecte punt central bola esquerra Da
+        double Da = Util::DistanciaHaversine(targetQuery, ball->getEsquerre()->getPivot());
+
+        //Calcula la distancia pdi respecte del punt central la bola dreta
+        double Db = Util::DistanciaHaversine(targetQuery, ball->getDreta()->getPivot());
+
+        //Si Da < Db comença cerca per la bola esquerra i despres dreta
+        if (Da < Db)
+        {
+            Q = nodeMesProper(targetQuery, Q, m_left);
+            Q = nodeMesProper(targetQuery, Q, m_right);
+        }
+        else
+        {
+            Q = nodeMesProper(targetQuery, Q, m_right);
+            Q = nodeMesProper(targetQuery, Q, m_left);
+           
+        }
+    }
+    
+    //Si Da < Db comença cerca per la bola esquerra i despres dreta
+    //else comença cerca per bola dreta i despres esquerra
+    
+    return Q;
 }
 
 

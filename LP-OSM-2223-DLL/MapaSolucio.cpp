@@ -168,5 +168,10 @@ CamiBase* MapaSolucio::buscaCamiMesCurt(PuntDeInteresBase* desde, PuntDeInteresB
 
     ballTree.construirArbre(graf.getNodes());
 
+    Coordinate nodeProper = ballTree.getPivot();
+    nodeProper = ballTree.nodeMesProper(desde->getCoord(), nodeProper, &ballTree);
+
+    int hola = 0;
+
     return nullptr;
 }

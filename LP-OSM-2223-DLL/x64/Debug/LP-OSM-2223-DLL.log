@@ -1,16 +1,5 @@
-﻿  GrafSolucio.cpp
-C:\Users\usuario\Desktop\Treballs Uni\2n año\LP\LP_MAPS_PARTE_2\LP-OSM-2223-DLL\CamiSolucio.h(18,57): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
-  (compilando archivo de origen "GrafSolucio.cpp")
-  
-  MapaRender.cpp
-C:\Users\usuario\Desktop\Treballs Uni\2n año\LP\LP_MAPS_PARTE_2\LP-OSM-2223-DLL\CamiSolucio.h(18,57): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
-  (compilando archivo de origen "MapaRender.cpp")
-  
-C:\Users\usuario\Desktop\Treballs Uni\2n año\LP\LP_MAPS_PARTE_2\LP-OSM-2223-DLL\MapaRender.cpp(38,55): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
-  MapaSolucio.cpp
+﻿  MapaSolucio.cpp
 C:\Users\usuario\Desktop\Treballs Uni\2n año\LP\LP_MAPS_PARTE_2\LP-OSM-2223-DLL\CamiSolucio.h(18,57): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
   (compilando archivo de origen "MapaSolucio.cpp")
   
-  Generando código...
-     Creando biblioteca C:\Users\usuario\Desktop\Treballs Uni\2n año\LP\LP_MAPS_PARTE_2\x64\Debug\LP-OSM-2223-DLL.lib y objeto C:\Users\usuario\Desktop\Treballs Uni\2n año\LP\LP_MAPS_PARTE_2\x64\Debug\LP-OSM-2223-DLL.exp
   LP-OSM-2223-DLL.vcxproj -> C:\Users\usuario\Desktop\Treballs Uni\2n año\LP\LP_MAPS_PARTE_2\x64\Debug\LP-OSM-2223-DLL.dll
