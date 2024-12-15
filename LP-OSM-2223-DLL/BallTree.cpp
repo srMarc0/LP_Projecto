@@ -49,9 +49,9 @@ void BallTree::construirArbre(const std::vector<Coordinate>& coordenades) {
 
 void BallTree::construirArbreRec(const std::vector<Coordinate>& coordenades)
 {
-    if (coordenades.size() > 1)
+    m_coordenades = coordenades;
+    if (m_coordenades.size() > 1)
     {
-        m_coordenades = coordenades;
         // Calcula el punt central dels nodes (punt C)
         m_pivot = Util::calcularPuntCentral(m_coordenades);
 
